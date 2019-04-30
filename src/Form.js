@@ -201,7 +201,7 @@ class Form extends Component {
                 typeof validatorConfig.validateIf === 'function' &&
                 !validatorConfig.validateIf(context)
             ) {
-                console.log('validation Skipped', validatorConfig);
+                // console.log('validation Skipped', validatorConfig);
                 return null;
             } else if (
                 typeof validatorConfig.validateIf === 'boolean' &&
